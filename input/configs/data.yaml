@@ -1,0 +1,6 @@
+folder_labeled: input/data/cityscapes-fine/images/processed
+folder_unlabeled: input/data/cityscapes-coarse/images/processed
+n_train: 2416
+n_val: 704
+n_test: 352
+n_unlabeled: 19984

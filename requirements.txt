@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+scipy
+scikit-image
+opencv-python
+openpyxl
+tqdm
+glob2
+pillow
+pyyaml

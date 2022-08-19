@@ -1,0 +1,8 @@
+img_height: 256
+img_width: 512
+filter_size: 64
+n_classes: 20
+batch_size: 16
+ensemble: mean
+t_color: [0.5, 2]
+t_space: [-10, 10]

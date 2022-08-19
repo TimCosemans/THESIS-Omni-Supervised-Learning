@@ -1,0 +1,6 @@
+step: test_visual
+model_name: teacher_dice_color
+visuals_folder: 'output/visuals'
+n_input: 10
+n_transform: 16
+t_color: [1, 1.2]

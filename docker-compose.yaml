@@ -1,0 +1,15 @@
+services:
+  omni:
+    build: .
+    image: thesisomni
+    volumes:
+      - ./input/:/input
+      - ./output/:/output
+      - ./main.py:/main.py
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ["0"]
+            capabilities: [gpu]

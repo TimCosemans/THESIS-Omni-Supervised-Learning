@@ -1,0 +1,7 @@
+step: train_sup
+model_name: teacher_precision
+epochs: 150
+batch_size: 16
+tversky_alpha: 0.3
+tversky_beta: 0.7
+t_color: [1, 1.2]

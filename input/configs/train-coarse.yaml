@@ -1,0 +1,8 @@
+step: train_sup
+model_name: teacher_coarse
+epochs: 200
+batch_size: 16
+tversky_alpha: 1
+tversky_beta: 1
+t_color: [1, 1.2]
+coarse: True

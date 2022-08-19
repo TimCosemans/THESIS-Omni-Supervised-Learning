@@ -1,0 +1,6 @@
+step: mti
+model_name: student
+omni_folder: output/inference/student
+t_color: [1.0, 1.2]
+n_transform: 16
+n_output: 13888
