@@ -1,7 +1,7 @@
 services:
   omni:
     build: .
-    image: thesisomni
+    image: omni
     volumes:
       - ./input/:/input
       - ./output/:/output
